@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_optimized">
+
+    <!--        android:textDirection="firstStrongRtl"-->
+    <!--        android:textIsSelectable="false"-->
+    <!--      -->
+
+
+    <TextView
+        android:id="@+id/text_rules"
+        android:layout_width="384dp"
+        android:layout_height="305dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rules_optimized"
+        android:text="Click to any card, than second one, and beat the level!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/exit_rules"
+        android:layout_width="79dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/back_optimized" />
+
+</RelativeLayout>
